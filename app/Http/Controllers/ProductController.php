@@ -92,7 +92,6 @@ class ProductController extends Controller
         $product->name = $request->name;
         $product->description = $request->description;
         $product->price = $request->price;
-        $product->image = $request->image;
         $product->criteria = $request->criteria;
         $product->favorite = $request->favorite;
         $product->status = $request->status;
